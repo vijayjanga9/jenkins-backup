@@ -1,0 +1,85 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-09-27 12:31:31.381 UTC</timestamp>
+  <original>
+    <name>deployment project clean install package/vijay:sampleapp</name>
+    <number>1</number>
+  </original>
+  <md5sum>7729f9b9b785775f5f9ea849bca1512e</md5sum>
+  <fileName>vijay:sampleapp:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>sample project test job 2/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>deployment project clean install package/vijay:sampleapp</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>pipe_line_build test deploy all stages</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample project test job 3/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample project test job 3</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample project test job 2</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>pipe_line_build test deploy all stages/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample project release job 4</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample project build job 1/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>amazon data centerproject stage3</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>amazon data centerproject stage2</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>amazon data centerproject stage1</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>amazon data centerproject stage1/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>deployment project clean install package</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>amazon data centerproject stage2/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>amazon data centerproject stage3/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample project build job 1</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample project release job 4/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

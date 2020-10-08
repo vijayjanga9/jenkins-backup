@@ -1,0 +1,202 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@3.7">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>sample project test job 3</upstreamProject>
+            <upstreamUrl>job/sample%20project%20test%20job%203/</upstreamUrl>
+            <upstreamBuild>1</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>sample project test job 2</upstreamProject>
+                <upstreamUrl>job/sample%20project%20test%20job%202/</upstreamUrl>
+                <upstreamBuild>1</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>sample project build job 1</upstreamProject>
+                    <upstreamUrl>job/sample%20project%20build%20job%201/</upstreamUrl>
+                    <upstreamBuild>1</upstreamBuild>
+                    <upstreamCauses>
+                      <hudson.model.Cause_-UserIdCause>
+                        <userId>admin</userId>
+                      </hudson.model.Cause_-UserIdCause>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.4.4">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.5.1">
+              <sha1>f729f5601d6cb6a3ca7f7c7efe43fc1227813a00</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/vijayjanga9/maven-war.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@4.4.4">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/lib/jenkins/workspace/sample project release job 4</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <hudson.maven.reporters.SurefireAggregatedReport>
+      <descriptions class="concurrent-hash-map"/>
+      <failCount>0</failCount>
+      <skipCount>0</skipCount>
+      <totalCount>1</totalCount>
+      <children>
+        <hudson.tasks.test.AggregatedTestResultAction_-Child plugin="junit@1.37">
+          <name>vijay:sampleapp</name>
+          <build>1</build>
+        </hudson.tasks.test.AggregatedTestResultAction_-Child>
+      </children>
+    </hudson.maven.reporters.SurefireAggregatedReport>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>org.codehaus.mojo:animal-sniffer-annotations-1.14.jar</string>
+          <string>9d42e46845c874f1710a9f6a741f6c14</string>
+        </entry>
+        <entry>
+          <string>org.seleniumhq.selenium:selenium-edge-driver-3.141.59.jar</string>
+          <string>95331521f065a2b0b91525d4a38ca204</string>
+        </entry>
+        <entry>
+          <string>org.checkerframework:checker-compat-qual-2.0.0.jar</string>
+          <string>b6fb2610dacd211a3e2c3d8af1b60d0f</string>
+        </entry>
+        <entry>
+          <string>com.squareup.okhttp3:okhttp-3.11.0.jar</string>
+          <string>7fc121527ff2f764c0d8335858cf4913</string>
+        </entry>
+        <entry>
+          <string>org.seleniumhq.selenium:selenium-safari-driver-3.141.59.jar</string>
+          <string>2dc90e7daa292087242c9ccde5019be5</string>
+        </entry>
+        <entry>
+          <string>junit:junit-4.11.jar</string>
+          <string>3c42be5ea7cbf3635716abbb429cb90d</string>
+        </entry>
+        <entry>
+          <string>org.seleniumhq.selenium:selenium-opera-driver-3.141.59.jar</string>
+          <string>bd9a7e3857e9bd5c83770e869335fd63</string>
+        </entry>
+        <entry>
+          <string>org.seleniumhq.selenium:selenium-api-3.141.59.jar</string>
+          <string>8c0236e54e32978531eea3a62d67160a</string>
+        </entry>
+        <entry>
+          <string>com.google.guava:guava-25.0-jre.jar</string>
+          <string>a8e597a21ea6a9bc661d038b52b01b93</string>
+        </entry>
+        <entry>
+          <string>com.google.errorprone:error_prone_annotations-2.1.3.jar</string>
+          <string>97504b36cf871722d81a4b9e114f2a16</string>
+        </entry>
+        <entry>
+          <string>org.seleniumhq.selenium:selenium-firefox-driver-3.141.59.jar</string>
+          <string>4307af322d715a602115c73808373628</string>
+        </entry>
+        <entry>
+          <string>org.hamcrest:hamcrest-core-1.3.jar</string>
+          <string>6393363b47ddcbba82321110c3e07519</string>
+        </entry>
+        <entry>
+          <string>net.bytebuddy:byte-buddy-1.8.15.jar</string>
+          <string>30885522678e56bcd4a6569c4280f2b7</string>
+        </entry>
+        <entry>
+          <string>org.apache.commons:commons-exec-1.3.jar</string>
+          <string>8bb8fa2edfd60d5c7ed6bf9923d14aa8</string>
+        </entry>
+        <entry>
+          <string>org.seleniumhq.selenium:selenium-support-3.141.59.jar</string>
+          <string>12927bfd657ccc3745660f1c6f748665</string>
+        </entry>
+        <entry>
+          <string>com.google.j2objc:j2objc-annotations-1.1.jar</string>
+          <string>49ae3204bb0bb9b2ac77062641f4a6d7</string>
+        </entry>
+        <entry>
+          <string>com.squareup.okio:okio-1.14.0.jar</string>
+          <string>ae447128b0a0625524178873c6b9aa12</string>
+        </entry>
+        <entry>
+          <string>vijay:sampleapp-1.0-SNAPSHOT.war</string>
+          <string>1708d21e3445bb643ba3dd8f2b57a72b</string>
+        </entry>
+        <entry>
+          <string>com.google.code.findbugs:jsr305-1.3.9.jar</string>
+          <string>1d5a772e400b04bb67a7ef4a0e0996d8</string>
+        </entry>
+        <entry>
+          <string>org.seleniumhq.selenium:selenium-ie-driver-3.141.59.jar</string>
+          <string>b120a070afe0383a8f41ba5f8f148a89</string>
+        </entry>
+        <entry>
+          <string>org.seleniumhq.selenium:selenium-chrome-driver-3.141.59.jar</string>
+          <string>91a5a227f2728bc1b2096332330da7fb</string>
+        </entry>
+        <entry>
+          <string>vijay:sampleapp:pom.xml</string>
+          <string>7729f9b9b785775f5f9ea849bca1512e</string>
+        </entry>
+        <entry>
+          <string>org.seleniumhq.selenium:selenium-remote-driver-3.141.59.jar</string>
+          <string>45dc4650fe3a118fc0016597faefdd6b</string>
+        </entry>
+        <entry>
+          <string>org.seleniumhq.selenium:selenium-java-3.141.59.jar</string>
+          <string>c1f23b7115a9650a53c145562696bf7d</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>23</queueId>
+  <timestamp>1601620650895</timestamp>
+  <startTime>1601620650897</startTime>
+  <result>FAILURE</result>
+  <duration>16796</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/sample project release job 4</workspace>
+  <hudsonVersion>2.249.1</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@4.4.4">
+    <authorOrCommitter>false</authorOrCommitter>
+    <showEntireCommitSummaryInChanges>false</showEntireCommitSummaryInChanges>
+  </scm>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+  <mavenVersionUsed>3.6.3</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

@@ -1,0 +1,37 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<matrix-run plugin="matrix-project@1.17">
+  <actions>
+    <hudson.matrix.MatrixConfiguration_-ParentBuildAction>
+      <parentId>multi configuration project job#1</parentId>
+    </hudson.matrix.MatrixConfiguration_-ParentBuildAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>multi configuration project job</upstreamProject>
+            <upstreamUrl>job/multi%20configuration%20project%20job/</upstreamUrl>
+            <upstreamBuild>1</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>admin</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>15</queueId>
+  <timestamp>1601453364665</timestamp>
+  <startTime>1601453364698</startTime>
+  <result>SUCCESS</result>
+  <duration>14</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/multi configuration project job/default</workspace>
+  <hudsonVersion>2.249.1</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</matrix-run>

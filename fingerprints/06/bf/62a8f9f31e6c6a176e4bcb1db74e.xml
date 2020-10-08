@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-09-27 12:31:31.349 UTC</timestamp>
+  <original>
+    <name>deployment project clean install package/vijay:sampleapp</name>
+    <number>1</number>
+  </original>
+  <md5sum>06bf62a8f9f31e6c6a176e4bcb1db74e</md5sum>
+  <fileName>vijay:sampleapp-1.0-SNAPSHOT.war</fileName>
+  <usages>
+    <entry>
+      <string>deployment project clean install package</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>deployment project clean install package/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

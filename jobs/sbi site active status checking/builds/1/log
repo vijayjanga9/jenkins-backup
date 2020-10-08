@@ -1,0 +1,9 @@
+Started by user [8mha:////4B9QTuMO0suymOvK5BKvnPkjLBb9DA5DcC4q6LMM+/dzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/sbi site active status checking
+[sbi site active status checking] $ /bin/sh -xe /tmp/jenkins13508449048245173373.sh
++ ping www.onlinesbi.com
+/tmp/jenkins13508449048245173373.sh: line 2: 13471 Terminated              ping www.onlinesbi.com
+Build was aborted
+Aborted by [8mha:////4B9QTuMO0suymOvK5BKvnPkjLBb9DA5DcC4q6LMM+/dzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Finished: ABORTED

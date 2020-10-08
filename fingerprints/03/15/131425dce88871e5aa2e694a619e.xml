@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-10-02 06:36:58.333 UTC</timestamp>
+  <original>
+    <name>sample project test job 2/vijay:sampleapp</name>
+    <number>1</number>
+  </original>
+  <md5sum>0315131425dce88871e5aa2e694a619e</md5sum>
+  <fileName>vijay:sampleapp-1.0-SNAPSHOT.war</fileName>
+  <usages>
+    <entry>
+      <string>sample project test job 2/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample project test job 2</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

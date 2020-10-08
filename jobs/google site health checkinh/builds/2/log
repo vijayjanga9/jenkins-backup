@@ -1,0 +1,31 @@
+Started by user [8mha:////4B9QTuMO0suymOvK5BKvnPkjLBb9DA5DcC4q6LMM+/dzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/google site health checkinh
+[google site health checkinh] $ /bin/sh -xe /tmp/jenkins9212611728313050328.sh
++ ping www.google.com
+PING www.google.com (172.217.4.68) 56(84) bytes of data.
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=1 ttl=101 time=16.7 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=2 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=3 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=4 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=5 ttl=101 time=16.7 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=6 ttl=101 time=16.7 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=7 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=8 ttl=101 time=16.9 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=9 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=10 ttl=101 time=17.0 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=11 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=12 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=13 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=14 ttl=101 time=16.7 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=15 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=16 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=17 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=18 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=19 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=20 ttl=101 time=16.8 ms
+64 bytes from lga15s47-in-f68.1e100.net (172.217.4.68): icmp_seq=21 ttl=101 time=16.8 ms
+/tmp/jenkins9212611728313050328.sh: line 2:  9307 Terminated              ping www.google.com
+Build was aborted
+Aborted by [8mha:////4B9QTuMO0suymOvK5BKvnPkjLBb9DA5DcC4q6LMM+/dzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Finished: ABORTED

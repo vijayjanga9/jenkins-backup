@@ -1,0 +1,22 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/project  commit based on rapid build and deploy
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/vijayjanga9/maven-war.git/
+ > git init /var/lib/jenkins/workspace/project  commit based on rapid build and deploy # timeout=10
+Fetching upstream changes from https://github.com/vijayjanga9/maven-war.git/
+ > git --version # timeout=10
+ > git --version # 'git version 2.23.3'
+ > git fetch --tags --force --progress -- https://github.com/vijayjanga9/maven-war.git/ +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/vijayjanga9/maven-war.git/ # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f729f5601d6cb6a3ca7f7c7efe43fc1227813a00 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f729f5601d6cb6a3ca7f7c7efe43fc1227813a00 # timeout=10
+Commit message: "final"
+First time build. Skipping changelog.
+Finished: SUCCESS

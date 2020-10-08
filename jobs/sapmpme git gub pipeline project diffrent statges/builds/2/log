@@ -1,0 +1,5 @@
+Started by user [8mha:////4B9QTuMO0suymOvK5BKvnPkjLBb9DA5DcC4q6LMM+/dzAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Lightweight checkout support not available, falling back to full checkout.
+Checking out hudson.scm.NullSCM into /var/lib/jenkins/workspace/sapmpme git gub pipeline project diffrent statges@script to read Jenkinsfile
+ERROR: /var/lib/jenkins/workspace/sapmpme git gub pipeline project diffrent statges@script/Jenkinsfile not found
+Finished: FAILURE

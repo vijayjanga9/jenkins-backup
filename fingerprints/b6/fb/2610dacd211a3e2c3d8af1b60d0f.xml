@@ -1,0 +1,65 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-09-27 12:31:31.394 UTC</timestamp>
+  <md5sum>b6fb2610dacd211a3e2c3d8af1b60d0f</md5sum>
+  <fileName>org.checkerframework:checker-compat-qual-2.0.0.jar</fileName>
+  <usages>
+    <entry>
+      <string>sample project release job 4/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>pipe_line_build test deploy all stages/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>amazon data centerproject stage3</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>amazon data centerproject stage2</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>amazon data centerproject stage2/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample project test job 3</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample project test job 2</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>amazon data centerproject stage3/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>deployment project clean install package</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>pipe_line_build test deploy all stages</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample project test job 2/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>sample project release job 4</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>deployment project clean install package/vijay:sampleapp</string>
+      <ranges>1-2</ranges>
+    </entry>
+    <entry>
+      <string>sample project test job 3/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

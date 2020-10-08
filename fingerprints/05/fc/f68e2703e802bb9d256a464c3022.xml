@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-09-27 15:57:39.543 UTC</timestamp>
+  <original>
+    <name>amazon data centerproject stage3/vijay:sampleapp</name>
+    <number>1</number>
+  </original>
+  <md5sum>05fcf68e2703e802bb9d256a464c3022</md5sum>
+  <fileName>vijay:sampleapp-1.0-SNAPSHOT.war</fileName>
+  <usages>
+    <entry>
+      <string>amazon data centerproject stage3</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>amazon data centerproject stage3/vijay:sampleapp</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>
